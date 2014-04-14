@@ -291,6 +291,7 @@ class BoundProperty(AttrRouter):
                      'get_internal_type',
                      'help_text',
                      'null',
+                     'column',
                      #form-related properties
                      'editable',
                      'blank',

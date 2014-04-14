@@ -217,6 +217,7 @@ class BoundRelationship(AttrRouter, DeferredAttribute):
     choices = None
     db_index = None
 
+    column = None
     blank = True
     unique = False
     unique_for_date = False
